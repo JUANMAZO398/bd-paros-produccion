@@ -1,0 +1,32 @@
+# ---- Datos personales: NUNCA subir al repositorio público ----
+privado/
+*.xlsm
+*.xlsx
+*.csv
+
+# ---- DBeaver (credenciales y configuración local) ----
+.dbeaver/
+*.dbeaver-data-sources.xml
+credentials-config.json
+.dbeaver-tools/
+
+# ---- Respaldos y temporales ----
+*.bak
+*.dump
+*.backup
+*.log
+*.tmp
+~$*
+
+# ---- Sistema / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Secretos ----
+*.swp
+.env
+.env.*
+!.env.example
+*.bak.sql
